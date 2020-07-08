@@ -2660,16 +2660,19 @@ cornerstone-math@^0.1.8:
   resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.8.tgz#68ab1f9e4fdcd7c5cb23a0d2eb4263f9f894f1c5"
   integrity sha512-x7NEQHBtVG7j1yeyj/aRoKTpXv1Vh2/H9zNLMyqYJDtJkNng8C4Q8M3CgZ1qer0Yr7eVq2x+Ynmj6kfOm5jXKw==
 
-"cornerstone-tool-hip-prosthesis@link:../../cornerstone-tool-hip-prosthesis":
-  version "0.0.0"
-  uid ""
-
 cornerstone-tools-hip-prosthesis-tool@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/cornerstone-tools-hip-prosthesis-tool/-/cornerstone-tools-hip-prosthesis-tool-0.0.2.tgz#3e52213fb0ad4db91eb80b7983f20894887061c4"
   integrity sha512-XnbmL0zH7XB+o5Ht46TIW6Iaf9VjWP+FYDpEvT1NlcaWVrvH7SgqBu72pRFaJxE0OX20iMiWe2TgTEArpfGT6g==
   dependencies:
     "@svgdotjs/svg.js" "^3.0.16"
+
+cornerstone-tools-hip-prosthesis-toolv2@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/cornerstone-tools-hip-prosthesis-toolv2/-/cornerstone-tools-hip-prosthesis-toolv2-0.0.2.tgz#c71653c0cc62526059dec8bebccb6ca796d94ac0"
+  integrity sha512-R5AIrPPFM7j0NDUBoFiPWY1AaSeL6UckxYdMSRJ5NBMkaBDk6sAT40Fok5jGTvUjlH2c+b5rMbBE7qlUN46JWg==
+  dependencies:
+    cornerstone-tools-hip-prosthesis-tool "^0.0.2"
 
 cornerstone-tools@^4.15.2:
   version "4.15.2"
@@ -6585,9 +6588,9 @@ npm-profile@^4.0.2, npm-profile@^4.0.4:
     npm-registry-fetch "^4.0.0"
 
 npm-registry-fetch@^4.0.0, npm-registry-fetch@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-4.0.4.tgz#2da1ecf3f43d419d96abf313664291a4623d3ea5"
-  integrity sha512-6jb34hX/iYNQebqWUHtU8YF6Cjb1H6ouTFPClYsyiW6lpFkljTpdeftm53rRojtja1rKAvKNIIiTS5Sjpw4wsA==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-4.0.5.tgz#cb87cf7f25bfb048d6c3ee19d115bebf93ea5bfa"
+  integrity sha512-yQ0/U4fYpCCqmueB2g8sc+89ckQ3eXpmU4+Yi2j5o/r0WkKvE2+Y0tK3DEILAtn2UaQTkjTHxIXe2/CSdit+/Q==
   dependencies:
     JSONStream "^1.3.4"
     bluebird "^3.5.1"
