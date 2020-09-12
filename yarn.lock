@@ -2660,16 +2660,19 @@ cornerstone-math@^0.1.8:
   resolved "https://registry.yarnpkg.com/cornerstone-math/-/cornerstone-math-0.1.8.tgz#68ab1f9e4fdcd7c5cb23a0d2eb4263f9f894f1c5"
   integrity sha512-x7NEQHBtVG7j1yeyj/aRoKTpXv1Vh2/H9zNLMyqYJDtJkNng8C4Q8M3CgZ1qer0Yr7eVq2x+Ynmj6kfOm5jXKw==
 
-"cornerstone-tool-hip-prosthesis@link:../../cornerstone-tool-hip-prosthesis":
-  version "0.0.0"
-  uid ""
-
 cornerstone-tools-hip-prosthesis-tool@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/cornerstone-tools-hip-prosthesis-tool/-/cornerstone-tools-hip-prosthesis-tool-0.0.2.tgz#3e52213fb0ad4db91eb80b7983f20894887061c4"
   integrity sha512-XnbmL0zH7XB+o5Ht46TIW6Iaf9VjWP+FYDpEvT1NlcaWVrvH7SgqBu72pRFaJxE0OX20iMiWe2TgTEArpfGT6g==
   dependencies:
     "@svgdotjs/svg.js" "^3.0.16"
+
+cornerstone-tools-hip-prosthesis-toolv2@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/cornerstone-tools-hip-prosthesis-toolv2/-/cornerstone-tools-hip-prosthesis-toolv2-0.0.2.tgz#c71653c0cc62526059dec8bebccb6ca796d94ac0"
+  integrity sha512-R5AIrPPFM7j0NDUBoFiPWY1AaSeL6UckxYdMSRJ5NBMkaBDk6sAT40Fok5jGTvUjlH2c+b5rMbBE7qlUN46JWg==
+  dependencies:
+    cornerstone-tools-hip-prosthesis-tool "^0.0.2"
 
 cornerstone-tools@^4.15.2:
   version "4.15.2"
@@ -6412,9 +6415,9 @@ node-fetch-npm@^2.0.2:
     safe-buffer "^5.1.1"
 
 node-fetch@^2.3.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-gyp@^5.0.2, node-gyp@^5.1.0:
   version "5.1.1"
